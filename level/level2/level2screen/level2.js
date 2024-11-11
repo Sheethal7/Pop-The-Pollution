@@ -1,7 +1,7 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
-const buzzerSound = new Audio('Assets/Wrong Bubble Sound.mp3');
-const dingSound = new Audio('Assets/Good Bubble.mp3');
+const buzzerSound = new Audio('C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/Wrong Bubble Sound.mp3');
+const dingSound = new Audio('C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/Good Bubble.mp3');
 
 function openNav() {
     document.getElementById("overlay-nav").style.width = "250px";
@@ -27,7 +27,7 @@ function resumeGame() {
 }
 
 function quitGame() {
-    window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2oops\level2oops.html';
+    window.location.href = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/level/level2/level2oops/level2oops.html';
 }
 
 
@@ -115,7 +115,7 @@ function updateGame() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     const backgroundImage = new Image();
-    backgroundImage.src = 'Assets\\Level 2 bg.png';
+    backgroundImage.src = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/Level 2 bg.png';
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
 
     bubbles.forEach((bubble, index) => {
@@ -161,9 +161,9 @@ function endGame() {
     finalScore.textContent = score;
 
     if (score >= 15) {
-        window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2congratulation\level2congratulation.html';
+        window.location.href = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/level/level2/level2congratulations/level2congratulations.html';
     } else {
-        window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2oops\level2oops.html';
+        window.location.href = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/level/level2/level2oops/level2oops.html';
     }
 }
 
