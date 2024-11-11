@@ -2,7 +2,6 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 const buzzerSound = new Audio('C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/Wrong Bubble Sound.mp3');
 const dingSound = new Audio('C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/Good Bubble.mp3');
-
 function openNav() {
     document.getElementById("overlay-nav").style.width = "250px";
 }
@@ -164,6 +163,7 @@ function endGame() {
         window.location.href = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/level/level1/level1congratulation/level1congratulation.html';
     } else {
         window.location.href = 'C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/level/level1/level1oops/level1oops.html';
+        
     }
 }
 
