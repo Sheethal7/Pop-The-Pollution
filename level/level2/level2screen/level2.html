@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles Clicker Game</title>
+    <link rel="stylesheet" href="level2.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="hamburger-menu" onclick="openNav()">&#9776;</div>
+        <div id="overlay-nav" class="overlay">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\homescreen\index.html">
+                    <img src="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\Assets\Home Icon.png" alt="Icon 1">
+                    <span>Home</span>
+                </a>
+                <a href="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\levelscreen\levelscreen.html">
+                    <img src="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\Assets\Level Icon.png" alt="Icon 2">
+                    <span>Levels</span>
+                </a>
+                <a href="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\info\info1\info1.html">
+                    <img src="C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\Assets\Pollution Info Icon.png" alt="Icon 3">
+                    <span>Pollution Info</span>
+                </a>
+            </div>
+        </div>
+        <div id="pause-menu" onclick="openPauseMenu()">&#10074;&#10074;</div>
+        <div id="overlay-pause" class="overlay">
+            <a href="javascript:void(0)" class="close-btn" onclick="closePauseMenu()">&times;</a>
+            <div class="overlay-content">
+                <button onclick="restartGame()">Restart</button>
+                <button onclick="resumeGame()">Resume</button>
+                <button onclick="quitGame()">Quit</button>
+            </div>
+        </div>
+        
+
+        <div id="score-display">Score: 0</div>
+        <div id="timer-display">Time: 30</div>
+    </div>
+    <div id="end-screen" class="hidden">
+        <h1>Game Over!</h1>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+    <script src="level2.js"></script>
+</body>
+</html>
