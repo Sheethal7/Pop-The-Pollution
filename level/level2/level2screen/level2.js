@@ -27,7 +27,7 @@ function resumeGame() {
 }
 
 function quitGame() {
-    window.location.href = 'level\level2\level2oops\level2oops.html';
+    window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2oops\level2oops.html';
 }
 
 
@@ -161,9 +161,9 @@ function endGame() {
     finalScore.textContent = score;
 
     if (score >= 15) {
-        window.location.href = 'level\level2\level2congratulations\level2congratulations.html';
+        window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2congratulation\level2congratulation.html';
     } else {
-        window.location.href = 'level\level2\level2oops\level2oops.html';
+        window.location.href = 'C:\Users\Madhusudhan\Desktop\Computing Technology\Pop-The-Pollution\level\level2\level2oops\level2oops.html';
     }
 }
 
