@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 900px;
     background: linear-gradient(to bottom, #a7c7e7 56%, #e0e0e0 80%);
     font-family: Arial, sans-serif;
     overflow: hidden;
@@ -100,16 +106,6 @@ h2 {
     font-weight: bold;
     color: #333333;
 }
-
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-  }
-  
-   .container {
-    text-align: center;
-  }
    
   .next-page-arrow {
     display: inline-block;
