@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #a7c7e7 56%, #e0e0e0 80%);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#hamburger-menu {
+    font-size: 30px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 1001;
+    }
+
+    #hamburger-menu:hover {
+      opacity: 0.25;
+    }
+    
+    .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    z-index: 1000;
+    }
+    
+    .overlay .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    }
+    
+    .overlay-content {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    .overlay-content a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s;
+    }
+    
+    .overlay-content a:hover {
+    color: #ff8c00;
+    }
+    
+    .overlay-content img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    }
+
+    .container {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .level-box {
+        width: 200px;
+        height: 200px;
+        border: 3px solid #ff8c00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .level-box:hover{
+        opacity:0.25
+    }
+    
+    .level-box-link {
+        text-decoration: none;
+    }
+
+    .level-box p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ff8c00;
+    }
+
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 25%;
+        border: 5px solid whitesmoke;
+      }
+      
+       .circle1 {
+         width: 100px;
+         height: 100px;
+         top: 50px;
+         left: 100px;
+       }
+       
+       .circle2 {
+         width: 150px;
+         height: 150px;
+         top: 200px;
+         right: 80px;
+       }
+       
+       .circle3 {
+         width: 120px;
+         height: 120px;
+         bottom: 100px;
+         left: 40px;
+       }
+       
+       .circle4 {
+         width: 80px;
+         height: 80px;
+         bottom: 150px;
+         right: 150px;
+       }
