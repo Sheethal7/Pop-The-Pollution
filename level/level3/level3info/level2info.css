@@ -102,18 +102,12 @@ body {
   margin-bottom: 5px;
 }
 
-.Message {
-    font-size: 22px;
+.instructions {
+    list-style-type: none;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.6;
     color: #333333;
-}
-
-.Greeting {
-    color: #FFA500;
-    font-size: 26PX;
-    text-align: center;
-    font-weight: bold;
 }
 
 button {
