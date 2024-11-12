@@ -1,4 +1,4 @@
-const backgroundMusic = new Audio("C:/Users/Madhusudhan/Desktop/Computing Technology/Pop-The-Pollution/Assets/BG Music.mp3");
+const backgroundMusic = new Audio("C:/Users/Madhusudhan/Desktop/Game On/Air-Rescue/Assets/BG Music.mp3");
 const muteButton = document.getElementById("mute-btn");
 
 let isMuted = localStorage.getItem("isMuted") === "true";

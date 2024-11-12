@@ -5,13 +5,13 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom, #a7c7e7 56%, #e0e0e0 80%);
-    font-family: Arial, sans-serif;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:linear-gradient(to bottom, #87CEEB 60%, #002147 100%);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -93,7 +93,7 @@ body {
 }
 
 .overlay-content a:hover {
-  color: #ff8c00;
+  opacity: 0.25;
 }
 
 .overlay-content img {
@@ -105,11 +105,11 @@ body {
 h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #ff8c00;
+    color: #333333;
     margin-bottom: 20px;
 }
 
-.gas-list {
+.instructions {
     list-style-type: none;
     font-size: 18px;
     font-weight: bold;
@@ -138,38 +138,3 @@ h2 {
   .next-page-arrow:hover {
   opacity: 0.25;
 }
-
-   .circle {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 25%;
-    border: 5px solid whitesmoke;
-  }
-
-   .circle1 {
-     width: 100px;
-     height: 100px;
-     top: 50px;
-     left: 100px;
-   }
-   
-   .circle2 {
-     width: 150px;
-     height: 150px;
-     top: 200px;
-     right: 80px;
-   }
-   
-   .circle3 {
-     width: 120px;
-     height: 120px;
-     bottom: 100px;
-     left: 40px;
-   }
-   
-   .circle4 {
-     width: 80px;
-     height: 80px;
-     bottom: 150px;
-     right: 150px;
-   }
